@@ -2,8 +2,12 @@ package com.zebka.listmaker
 
 import android.support.v7.widget.RecyclerView
 import android.view.View
+import android.widget.TextView
 
 class ListItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
+
+    val taskTextView = itemView.findViewById(R.id.textview_task) as TextView
 
 
 
